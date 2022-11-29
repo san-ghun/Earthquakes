@@ -24,6 +24,7 @@
 		BD72369329361FE10061D445 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72369229361FE10061D445 /* QuakeError.swift */; };
 		BD72369B2936ACBC0061D445 /* EarthquakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72369A2936ACBC0061D445 /* EarthquakesTests.swift */; };
 		BD7236A22936ACE30061D445 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7236A12936ACE30061D445 /* TestData.swift */; };
+		BD7236A52936BA3A0061D445 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7236A32936BA290061D445 /* GeoJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BD7236982936ACBC0061D445 /* EarthquakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD72369A2936ACBC0061D445 /* EarthquakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesTests.swift; sourceTree = "<group>"; };
 		BD7236A12936ACE30061D445 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		BD7236A32936BA290061D445 /* GeoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
 		BD8A7406292D0E380026D6D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +153,7 @@
 				AD43F1F826158CD50068AABC /* Quake.swift */,
 				7CC62564273C2A9200F87758 /* Quake+Color.swift */,
 				BD72369229361FE10061D445 /* QuakeError.swift */,
+				BD7236A32936BA290061D445 /* GeoJSON.swift */,
 			);
 			name = Models;
 			path = Earthquakes/Models;
@@ -289,6 +292,7 @@
 				AA2F4EB4276BACEC009837CD /* QuakeMagnitude.swift in Sources */,
 				AA988DD727E90189004EA073 /* EditButton.swift in Sources */,
 				AA988DD527E9016A004EA073 /* SelectButton.swift in Sources */,
+				BD7236A52936BA3A0061D445 /* GeoJSON.swift in Sources */,
 				ADDDB1812625242200241A73 /* QuakeRow.swift in Sources */,
 				7CC62565273C2A9200F87758 /* Quake+Color.swift in Sources */,
 				AD43F1E626158A640068AABC /* EarthquakesApp.swift in Sources */,
