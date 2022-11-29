@@ -12,7 +12,7 @@ enum QuakeError: Error {
     case missingData
 }
 
-extension QuakeError {
+extension QuakeError: LocalizedError {
     var errorDescription: String? {
         switch self {
         case .missingData:
