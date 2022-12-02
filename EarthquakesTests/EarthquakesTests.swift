@@ -37,12 +37,20 @@ class EarthquakesTests: XCTestCase {
         
         XCTAssertEqual(expectedSeconds, decodedSeconds, accuracy: 0.00001)
     }
+    
+    func testQuakeDetailsDecoder() throws {
+        let decoded = try JSONDecoder().decode(QuakeLocation.self, from: testDetail_hv72783692)
+        dump(decoded)
+        XCTAssertEqual(decoded.latitude, 19.2189998626709, accuracy: 0.00000000001)
+    }
+    //"latitude": "19.2189998626709",
+    //"longitude": "-155.434173583984",
 }
 
 /*final class EarthquakesTests: XCTestCase {
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
     override func tearDownWithError() throws {
